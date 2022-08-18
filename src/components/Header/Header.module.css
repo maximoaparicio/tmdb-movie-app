@@ -1,0 +1,23 @@
+.header {
+  margin: 0 3rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.headerLeft a {
+  all: unset;
+  color: white;
+  cursor: pointer;
+}
+
+.headerLeft a:hover {
+  color: rgb(185, 185, 185);
+  transition: 0.2s;
+}
